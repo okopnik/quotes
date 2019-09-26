@@ -1,8 +1,16 @@
 First central assumption: the flips are independent of one another.
 The coin has no memory. The fact that you got heads or tails in the previous
 toss does not change the odds or your getting heads or tails on the next one.
-You do not become a “better” coin flipper over time. Introduce memory, or
+You do not become a "better" coin flipper over time. Introduce memory, or
 skills in flipping, and the entire Gaussian business becomes shaky.
+Second central assumption: no "wild" jump. The step size in the
+building block of the basic random walk is always known, namely one step
+here. There is no uncertainty as to the size of the step. We did not
+encounter situations in which the move varied wildly.
+Remember that if either of these central two assumptions is not met,
+your moves +1 and -1 (your coin tosses) will not cumulatively lead to the
+bell curve. Depending on what happens, they can lead to the wild
+Mandelbrotian-style scale-invariant randomness.
  -- NN Taleb, "The Black Swan"
 
 
