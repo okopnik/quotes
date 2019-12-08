@@ -1,3 +1,25 @@
+Expected value is defined as the probability-weighted value of the payoffs,
+summed over all possible outcomes. For example, in the case of a trade that can
+have only two outcomes,
+
+EV = Pr(win) × payoff(win) + Pr(loss) × payoff(loss)
+
+So if someone has offered us a bet on the toss of a fair coin, where he will pay
+us $1.10 if we win and we pay only $1.00 if we lose, our expected value is 0.5 ×
+1.1 − 0.5 × 1 = 0.05. So we expect to win 5 cents, on average, when we play this
+game. As this is greater than zero this is a good trade for us.
+Note that in no single playing of the game will we win 5 cents. We will either
+win $1.10 or lose $1. Expected value is an average.  This is the essence of good
+trading: finding, making, and managing trades with positive expectancy.
+Everything else: news, business conditions, macroeconomics, technical analysis,
+psychology, and so on, must be subservient to this concept. A good trade is
+identical to one with positive expected value. Further, a good trader should be
+prepared to put on any trade if the price is good enough. For example, even if
+you think volatility will increase, you should be prepared to sell options if
+you get enough edge.
+ -- Euan Sinclair, "Option Trading"
+
+
 For us practitioners, theories about practice should arise from practice or at
 least avoid conflict with it. This explains our concern with the "scientific"
 notion that practice should fit theory. Option hedging, pricing, and trading are
